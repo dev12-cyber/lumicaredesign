@@ -284,6 +284,27 @@
   
 }
 
+.page-bitemoji {
+    background: url(../img/bitemoji.jpg) center center no-repeat;
+    background-size: cover;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    
+}
+@media (max-width: 768px) {
+  .page-bitemoji{
+   height: 205px;
+      background-position: center center;
+      margin-top: 40px;
+    
+      margin-left: 0px;
+    }
+}
+
+
+
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .page-header_amieamed   {
